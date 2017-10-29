@@ -7,6 +7,21 @@ In acest tutorial va voi arata cum sa adaugati o parte din variabile, pe o pagin
 Atentie!<br />
 Aceste variabile nu vor functiona la browserele mai vechi (versiuni vechi) si la cei care au dezactivat JavaScript.
 
+### Instalare:
+Adaugati codul de mai jos la inceputul codului html al paginii
+(Panou de administrare => Module => HTML & JAVASCRIPT => Administrare pagini HTML => Adauga o pagina HTML => Cod HTML)
+```javascript
+<script type="text/javascript" src="https://cdn.rawgit.com/SSYT/FA-VARS/master/var-fa.js"></script>
+```
+
+### Utilizare:
+Adaugati variabilele dorite. Ele pot fi introduse in mai multe feluri, dupa bunul plac:<br />
+`<span class="USERNAME"></span>`<br />
+`<div class="FORUMNAME USERNAME"></div>`<br />
+`<span class="USERNAME">Nick-name-ul meu: </span>` - [u]Afisare:[/u] Nick-name-ul meu: Nume<br />
+`<input type="text" class="USERNAME" />`
+
+
 ### Lista variabilelor pentru o pagina html:
 Numele forumului<br />
 `{FORUMNAME}`
